@@ -25,7 +25,7 @@ const Header = () => {
       <p className='max-w-2xl mx-auto text-gray-700 dark:text-white/85'>I&apos;m a Full Stack Developer from Lucknow, working with the MERN stack to build practical and user-friendly web applications. I enjoy solving real problems through clean code, solid backend logic, and responsive interfaces, and I&apos;m constantly learning to improve my skills and grow as a developer.</p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact" className='px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 dark:bg-white dark:text-black transition-colors duration-300'>Contact Me <Image src={assets.right_arrow_white} alt="" className='w-4 transition duration-300 dark:invert'></Image></a>
-        <a href="/jageshwar-resume.pdf" download="jageshwar-resume.pdf" className='px-10 py-3 border rounded-full border-gray-500 dark:border-white/60 flex items-center gap-2 transition-colors duration-300'>My Resume <Image src={assets.download_icon} alt="" className='w-4 dark:invert'></Image></a>
+        <a href="/Jageshwar-resume-completed.pdf" download="Jageshwar-resume-completed.pdf" className='px-10 py-3 border rounded-full border-gray-500 dark:border-white/60 flex items-center gap-2 transition-colors duration-300'>My Resume <Image src={assets.download_icon} alt="" className='w-4 dark:invert'></Image></a>
       </div>
     </div>
   )
