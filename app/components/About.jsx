@@ -29,11 +29,11 @@ const About = () => {
 
             <h4 className='my-6 text-gray-700 dark:text-white'>Tools I use</h4>
 
-              <ul className='flex flex-wrap items-center gap-3 sm:gap-5 max-w-3xl'>
+              <ul className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4 sm:gap-5 max-w-3xl'>
                 {toolsData.map((tool, index) => (
-                  <li className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 transition-transform duration-300 ease-out'
+                  <li className='flex h-14 w-14 sm:h-14 sm:w-14 items-center justify-center border border-gray-400 dark:border-white/30 rounded-lg cursor-pointer hover:-translate-y-1 transition-transform duration-300 ease-out'
                   key={index}>
-                    <Image src={tool} alt='tool icon' className='w-5 sm:w-7' />
+                    <Image src={tool} alt='tool icon' className='w-7 sm:w-7' />
                   </li>
                 ))}
             </ul>
